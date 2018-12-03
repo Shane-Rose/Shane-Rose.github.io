@@ -29,6 +29,10 @@ h2 {
   font-size: 2em;
 }
 
+.yellow{
+  color: #ffcc33;
+}
+
 /* header */
 
 .navBar {
@@ -309,11 +313,13 @@ footer p {
 }
 
 .button {
-    border:4px #ffcc33;
-    border-radius:2px;
+    border:4px #fff;
+    border-radius:10px;
     width: 40px;
-    padding-left:5px;
-    padding-right: 5px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     position: relative;
     float:right;
     background-color: #ffcc33;
@@ -346,6 +352,11 @@ button {
     color: #FFFFFF;
     font-weight: bold;
     box-shadow: 5px 5px 5px #888;
+}
+
+#container h2{
+    color: #ffcc33;
+    margin-top: auto;
 }
 
 #quiz ul {
